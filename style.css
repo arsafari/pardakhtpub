@@ -1,0 +1,182 @@
+* {
+  padding: 0;
+  margin: 0;
+  background-color: #f5f5f5;
+  font-family: SG Kara;
+  font-size: 18px;
+  color: #434750;
+  list-style-type: none;
+}
+@font-face {
+  font-family: SG Kara;
+  src: url(fonts/SGKara-Regular.ttf) format("woff");
+}
+main {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  filter: drop-shadow(0 0.125rem 0.25rem #18274b14)
+    drop-shadow(0 0.25rem 0.25rem #18274b1f);
+}
+#check {
+  font-size: 5.625rem;
+  color: #03a66d;
+  background-color: inherit;
+  display: flex;
+  justify-content: center;
+  position: relative;
+  top: 11.4%;
+}
+.message_title {
+  color: #03a66d;
+  background-color: #fff;
+  font-size: 1.125rem;
+  position: absolute;
+  top: 29%;
+  font-family: SG Kara;
+}
+.centeralizer {
+  display: flex;
+  justify-content: center;
+}
+#dashline {
+  border: none;
+  border-top: 0.125rem dashed #e6e6e6;
+  opacity: 60%;
+  background-color: inherit;
+  width: 100%;
+  position: relative;
+  top: 2rem;
+}
+section {
+  height: 300px;
+  width: 100%;
+  position: absolute;
+  top: 38%;
+  line-height: 3;
+  background-color: #fff;
+}
+section::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+section::before {
+  content: "";
+  display: table;
+}
+.rightlist {
+  margin-right: 9%;
+  float: right;
+  text-align: right;
+  clear: right;
+}
+ul li {
+  background-color: #fff;
+}
+.leftlist {
+  float: left;
+  text-align: left;
+  clear: left;
+  margin-left: 9%;
+}
+h2 {
+  color: #e2e6e9;
+  background-color: #fff;
+  font-size: 1.125rem;
+  position: absolute;
+  top: 88.6%;
+  font-family: SG Kara;
+}
+.shapebox {
+  width: 24.125rem;
+  height: 36.375rem;
+  position: absolute;
+  background-color: #fff;
+  clip-path: polygon(
+    0% 0%,
+    0% 100%,
+    2.12% 98%,
+    4.24% 100%,
+    6.36% 98%,
+    8.48% 100%,
+    10.6% 98%,
+    12.72% 100%,
+    14.84% 98%,
+    16.96% 100%,
+    19.08% 98%,
+    21.2% 100%,
+    23.32% 98%,
+    25.44% 100%,
+    27.56% 98%,
+    29.68% 100%,
+    31.8% 98%,
+    33.92% 100%,
+    36.04% 98%,
+    38.16% 100%,
+    40.28% 98%,
+    42.4% 100%,
+    44.52% 98%,
+    46.64% 100%,
+    48.76% 98%,
+    50.88% 100%,
+    53% 98%,
+    55.12% 100%,
+    57.24% 98%,
+    59.36% 100%,
+    61.48% 98%,
+    63.6% 100%,
+    65.72% 98%,
+    67.84% 100%,
+    69.96% 98%,
+    72.08% 100%,
+    74.2% 98%,
+    76.32% 100%,
+    78.44% 98%,
+    80.56% 100%,
+    82.68% 98%,
+    84.8% 100%,
+    86.92% 98%,
+    89.04% 100%,
+    91.16% 98%,
+    93.28% 100%,
+    95.4% 98%,
+    97.52% 100%,
+    99.96% 98%,
+    100% 100%,
+    100% 0%
+  );
+}
+.test {
+  margin-top: 54%;
+  height: 3rem;
+  width: 9.5rem;
+  background-color: #03a66d;
+  position: absolute;
+  border: none;
+  color: #fff;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 1.125rem;
+  border-radius: 0.5rem;
+}
+footer {
+  width: 100%;
+  height: 5rem;
+  margin-top: 60%;
+  display: flex;
+  align-items: center;
+  background: #ededed;
+  justify-content: center;
+}
+footer a {
+  text-decoration: none;
+  color: #959ea6;
+  display: inline-block;
+  padding: 0.5rem;
+  background-color: #ededed;
+}
+.footerlist {
+  display: flex;
+}
