@@ -147,7 +147,7 @@ h2 {
     100% 0%
   );
 }
-.returnbutton_centerlize{
+.returnbutton-centerlize{
       display: flex;
     justify-content: center;
 }
